@@ -1,0 +1,29 @@
+
+.nav{
+  list-style: none;
+  display: flex;
+  /* text-decoration-line: none; */
+  align-items: center;
+  background-color: rgb(43, 150, 226);
+  height: 60px;
+  justify-content: right;
+  border-radius: 15px;
+  /* width: "110%"; */
+  
+  
+}
+a{
+  padding: 10px;
+  text-decoration: none;
+  color:rgb(47, 255, 120);
+
+ 
+}
+
+ a:hover{
+
+ transform: scale(1.08);
+  background: linear-gradient(135deg, orange, grey)red;
+  box-shadow: 0 0 20px #10b981, 0 0 30px #10b981, 0 0 40px #10b981;
+  }
+

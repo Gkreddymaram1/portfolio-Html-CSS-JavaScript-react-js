@@ -1,0 +1,72 @@
+.skills-table-container {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: palevioletred;
+}
+
+.skills-text {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  width: 90%;           /* increased width */
+  max-width: 1200px;    /* optional max width */
+}
+
+.skills-text:hover {
+  border: 3px solid yellow;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.skills-table-container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: blue;
+}
+
+/* TABLE STYLING */
+.skills-table {
+  width: 100%;           /* table fills wrapper */
+  border-collapse: collapse;
+  font-size: 18px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.skills-table th {
+  background-color: red;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.skills-table td {
+  border: 1px solid white;
+  padding: 12px;
+  line-height: 1.7;
+}
+
+.skills-table tr:nth-child(even) {
+  background-color: white;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .skills-text {
+    width: 95%;
+  }
+
+  .skills-table th,
+  .skills-table td {
+    font-size: 16px;
+    padding: 10px;
+  }
+}

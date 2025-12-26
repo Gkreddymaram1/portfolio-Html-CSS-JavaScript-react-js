@@ -1,0 +1,41 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: palevioletred;
+}
+
+.home-text {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.home-text:hover {
+  border: 3px solid yellow;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.home-text h1 {
+  font-size: 36px;
+  color: yellowgreen;
+  margin-bottom: 10px;
+}
+
+.home-text h2 {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.home-text p {
+  font-size: 20px;
+  color: blueviolet;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}

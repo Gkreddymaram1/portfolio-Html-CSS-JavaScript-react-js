@@ -1,0 +1,36 @@
+.about-container {
+  height: 100vh;                
+  display: flex;
+  justify-content: center;       
+  align-items: center;  
+  background-color: palevioletred;         
+  padding: 20px;
+  text-align: center;
+}
+
+.about-text {
+  display: inline-block;       /* wrap content for border */
+  padding: 20px;
+  border: 2px solid transparent; /* default invisible border */
+  border-radius: 10px;
+  transition: all 0.3s ease;   /* smooth hover effect */
+}
+
+.about-text:hover {
+  border: 3px solid yellow;    /* highlight border on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* optional hover background */
+}
+
+.about-text h1 {
+  font-size: 36px;
+  color: blueviolet;
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  font-size: 20px;
+  color: blueviolet;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 15px auto;
+}

@@ -1,0 +1,44 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+   background-color: palevioletred; 
+
+
+  /* background-color: aqua; */
+  /* background-color: burlywood; */
+}
+
+/* Image container */
+.img img {
+  border-radius: 20px;       /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.img img:hover {
+  transform: scale(1.05);     /* Slight zoom */
+  box-shadow: 0 10px 20px yellowgreen;   /* Shadow on hover */
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 15px; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: red;
+  transform: scale(1.04);
+}
+#p{
+  color: red ;
+}
+
+
